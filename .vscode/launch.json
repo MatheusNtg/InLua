@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lrdb",
+            "request": "launch",
+            "name": "Lua Launch",
+            "program": "${workspaceFolder}/executions.lua",
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": true
+        }
+    ]
+}
